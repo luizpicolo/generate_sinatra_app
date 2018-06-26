@@ -3,7 +3,7 @@
 	<head>
 		<title>Sample SinatraAPP</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="stylesheet/main.scss" rel="stylesheet" media="screen">
+		<link href="stylesheet/main.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
 		<main>
