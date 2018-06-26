@@ -1,5 +1,5 @@
 def create_diretory(dir_name)
-  FileUtils::mkdir_p dir_name.gsub(/\s+/, "")
+  FileUtils::mkdir_p dir_name.gsub(/\s+/, "") unless File.directory?(dir_name)
 end
 
 def read_file(file)
