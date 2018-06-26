@@ -5,8 +5,7 @@ Script to generate a base for sinatra applications
 ## How to use
 
     git clone https://github.com/luizpicolo/generate_sinatra_app.git
-    cd generate_sinatra_app
-    ruby generate_sinatra_app NAME_YOUR_PROJECT
+    ruby generate_sinatra_app/generator.rb NAME_YOUR_PROJECT
 
 ## Directories and files structure
 
