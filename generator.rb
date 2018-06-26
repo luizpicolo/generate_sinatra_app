@@ -1,25 +1,7 @@
 require 'fileutils'
-
-def create_diretory(dir_name)
-  FileUtils::mkdir_p dir_name.gsub(/\s+/, "")
-end
-
-def read_file(file)
-  File.read(file)
-end
-
-def convert_to_array(file)
-  file.split(",")
-end
-
-def create_and_write_file(file_name, strings = nil)
-  File.open(ARGV[0] + file_name, "w") do |f|
-    strings.each {|string| f.write(string)} unless strings.nil?
-  end
-end
+require_relative 'utils'
 
 BASE_DIRS = convert_to_array(read_file('generate_sinatra_app/base/dir'))
-
 BASE_DIRS.each do |base_dir|
   create_diretory ARGV[0] + '/' + base_dir
 end
