@@ -15,7 +15,7 @@ puts "Generating initial files:"
 create_and_write_file('/controllers/init.rb', ["require_relative 'home_controller'"])
 create_and_write_file('/controllers/home_controller.rb', [read_file('generate_sinatra_app/base/home_controller')])
 create_and_write_file('/models/init.rb')
-create_and_write_file('/public/stylesheets/main.scss')
+create_and_write_file('/public/stylesheets/sass/main.scss')
 create_and_write_file('/public/javascripts/main.js')
 create_and_write_file('/views/layout.erb', [read_file('generate_sinatra_app/base/layout')])
 create_and_write_file('/views/home.erb', ['Welcome to Home Sinatra'])
