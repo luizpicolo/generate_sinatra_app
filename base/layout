@@ -4,10 +4,17 @@
 		<title>Sample SinatraAPP</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="stylesheets/main.css" rel="stylesheet" media="screen">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style media="screen">
+			main {
+				font-family: 'Roboto', sans-serif;
+				text-align: center;
+			}
+		</style>
 	</head>
 	<body>
 		<main>
-			<%= yield %>
+			<h1><%= yield %></h1>
 		</main>
 		<script src="javascripts/main.js"></script>
 	</body>
