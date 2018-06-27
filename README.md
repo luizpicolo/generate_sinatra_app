@@ -7,6 +7,10 @@ Script to generate a base for sinatra applications
     git clone https://github.com/luizpicolo/generate_sinatra_app.git
     ruby generate_sinatra_app/generator.rb NAME_YOUR_PROJECT
 
+## Execute your project
+
+    rackup config.ru
+
 ## Directories and files structure
 
     Directories and files structure
