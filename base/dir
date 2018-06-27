@@ -2,5 +2,5 @@ models,
 controllers,
 views,
 public,
-public/stylesheet,
-public/javascript
+public/stylesheets,
+public/javascripts

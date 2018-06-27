@@ -3,12 +3,12 @@
 	<head>
 		<title>Sample SinatraAPP</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="stylesheet/main.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/main.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
 		<main>
 			<%= yield %>
 		</main>
-		<script src="javascript/main.js"></script>
+		<script src="javascripts/main.js"></script>
 	</body>
 </html>
