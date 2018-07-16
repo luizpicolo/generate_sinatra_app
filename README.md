@@ -14,19 +14,21 @@ Script to generate a base for sinatra applications
 ## Directories and files structure
 
     Directories and files structure
-    .
-    ├── app.rb
-    ├── controllers
-    │   └── init.rb
     ├── Gemfile
+    ├── app.rb
+    ├── config
+    ├── config.ru
+    ├── controllers
+    │   └── home_controller.rb
     ├── models
-    │   └── init.rb
     ├── public
-    │   ├── javascript
+    │   ├── javascripts
     │   │   └── main.js
-    │   └── stylesheet
-    │       └── main.scss
+    │   └── stylesheets
+    │       └── sass
+    │           └── main.scss
     └── views
+        ├── home.erb
         └── layout.erb
 
-    6 directories, 7 files
+    8 directories, 8 files
