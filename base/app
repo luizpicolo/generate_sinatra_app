@@ -1,3 +1,2 @@
-require 'sinatra',
-require_relative 'models/init',
-require_relative 'controllers/init'
+require 'sinatra';
+Dir['models/*.rb', 'controllers/*.rb'].each {|file| load file }
