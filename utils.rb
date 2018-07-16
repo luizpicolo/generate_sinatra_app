@@ -7,7 +7,7 @@ def read_file(file)
 end
 
 def convert_to_array(file)
-  file.split(",")
+  file.split(";")
 end
 
 def create_and_write_file(file_name, strings = nil)
