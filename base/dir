@@ -1,6 +1,7 @@
 models,
 controllers,
 views,
+config,
 public,
 public/stylesheets/sass,
 public/javascripts
